@@ -224,6 +224,7 @@ MonoBehaviour:
   scenePrefabs:
   - {fileID: 5793923164243101542, guid: a86577e6e123ea34cb64a387abba222d, type: 3}
   - {fileID: 2818634314005062601, guid: 19deb787877478546b43907353d73e53, type: 3}
+  - {fileID: 1279143231105605078, guid: 7dbc2d16c4d1445a1a99b11a7777e72f, type: 3}
   player: {fileID: 2098771823}
 --- !u!4 &316077615
 Transform:
