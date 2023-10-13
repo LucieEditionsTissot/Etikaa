@@ -39,7 +39,7 @@ public class SceneManager : MonoBehaviour
 
     public void Start()
     {
-        LoadScene("TrolleyDilemma");
+        LoadScene("HospitalScene");
     }
 
     public void LoadScene(string sceneName)
