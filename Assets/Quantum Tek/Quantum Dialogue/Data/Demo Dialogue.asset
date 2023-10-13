@@ -51,7 +51,7 @@ MonoBehaviour:
     PreviousMessage: 1
     NextMessage: 4
     MessageText: 'And I''m Barb, how are you ? '
-    Clip: {fileID: 8300000, guid: b713eadb77ba54941a407b4af279e974, type: 3}
+    Clip: {fileID: 0}
   Choices:
   - ID: 4
     Choices:
