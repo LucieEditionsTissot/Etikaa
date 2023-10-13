@@ -48,4 +48,11 @@ public class PlayerControls : MonoBehaviour
             rb.AddForce(jumpForce * Vector3.up, ForceMode.VelocityChange);
         }
     }
+
+    public void resetMoveConstraints(){
+        Rigidbody rb = this.GetComponent<Rigidbody>();
+        rb.constraints = RigidbodyConstraints.None;
+        //freeze rotation x and z
+        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+    }
 }

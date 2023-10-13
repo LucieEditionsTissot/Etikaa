@@ -22,7 +22,7 @@ public class RailwayPoint : MonoBehaviour
         // if the e key is pressed, send event
         if (Input.GetKeyDown(KeyCode.E))
         {
-            EventManager.TriggerEvent("RailwayPoint");
+            //EventManager.TriggerEvent("RailwayPoint");
         }
     }
 }

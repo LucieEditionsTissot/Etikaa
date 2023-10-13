@@ -37,6 +37,11 @@ public class SceneManager : MonoBehaviour
         }
     }
 
+    public void Start()
+    {
+        LoadScene("TrolleyDilemma");
+    }
+
     public void LoadScene(string sceneName)
     {
         foreach (GameObject scenePrefab in scenePrefabs)
@@ -47,7 +52,6 @@ public class SceneManager : MonoBehaviour
                 currentScene = Instantiate(scenePrefab);
             }
         }
-
         player.transform.position = GameObject.FindGameObjectWithTag("SpawnPoint").transform.position;
     }
 
