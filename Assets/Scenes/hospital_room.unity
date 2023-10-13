@@ -2288,6 +2288,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 892536057}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &906740715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2530669464317380811, guid: d94f5692f23ab6f47ba4b40e46b6fa16,
+    type: 3}
+  m_PrefabInstance: {fileID: 829723417}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &906740716 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1532885925506726616, guid: d94f5692f23ab6f47ba4b40e46b6fa16,
@@ -3364,6 +3370,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1339165360}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1511936223 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 462910770013183561, guid: 2f3839fda8636e84490b3b5b22e0f132,
+    type: 3}
+  m_PrefabInstance: {fileID: 1261807258}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1511936224 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3474473495868501082, guid: 2f3839fda8636e84490b3b5b22e0f132,
@@ -4249,13 +4261,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30486215ad5a7914cb44b4100e782132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab1: {fileID: 0}
-  positionOffset1: {x: -1, y: 0, z: 2}
+  prefab1: {fileID: 906740715}
+  positionOffset1: {x: 0.52, y: -1.43, z: 2.01}
   rotationOffset1: {x: 0, y: 0, z: 0, w: 1}
-  prefab2: {fileID: 0}
-  positionOffset2: {x: 1, y: 0, z: 2}
+  prefab2: {fileID: 1511936223}
+  positionOffset2: {x: 1.21, y: -1.43, z: 2.01}
   rotationOffset2: {x: 0, y: 0, z: 0, w: 1}
-  mainCamera: {fileID: 0}
+  mainCamera: {fileID: 2106281799}
 --- !u!1 &2146548076
 GameObject:
   m_ObjectHideFlags: 0
