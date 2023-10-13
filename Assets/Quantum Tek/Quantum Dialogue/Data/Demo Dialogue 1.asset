@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fc788fe28a1947c5906bf24c0472406, type: 3}
-  m_Name: Demo Dialogue
+  m_Name: Demo Dialogue 1
   m_EditorClassIdentifier: 
   Conversations:
   - ID: 2
-    Name: Meeting with Bob and Barb
+    Name: Meeting with Bob
     FirstMessage: 1
   Speakers:
   - ID: 0
@@ -28,9 +28,9 @@ MonoBehaviour:
     Speaker: 0
     SpeakerName: Bob
     PreviousMessage: -1
-    NextMessage: 2
-    MessageText: 'Hi, I''m Bob! '
-    Clip: {fileID: 8300000, guid: b713eadb77ba54941a407b4af279e974, type: 3}
+    NextMessage: 4
+    MessageText: Hi, I'm Bob! How are you?
+    Clip: {fileID: 0}
   - ID: 6
     Speaker: 0
     SpeakerName: Bob
@@ -45,13 +45,6 @@ MonoBehaviour:
     NextMessage: -1
     MessageText: I am sorry to hear that.
     Clip: {fileID: 0}
-  - ID: 2
-    Speaker: 1
-    SpeakerName: Barb
-    PreviousMessage: 1
-    NextMessage: 4
-    MessageText: 'And I''m Barb, how are you ? '
-    Clip: {fileID: 8300000, guid: b713eadb77ba54941a407b4af279e974, type: 3}
   Choices:
   - ID: 4
     Choices:
