@@ -14,51 +14,78 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Conversations:
   - ID: 2
-    Name: Meeting with Bob
+    Name: Start
     FirstMessage: 1
   Speakers:
   - ID: 0
-    Name: Bob
+    Name: Bambou
+    Icon: {fileID: 0}
+  - ID: 1
+    Name: Tonnerre
     Icon: {fileID: 0}
   Messages:
   - ID: 1
     Speaker: 0
-    SpeakerName: Bob
+    SpeakerName: Bambou
     PreviousMessage: -1
-    NextMessage: 4
-    MessageText: Hi, I'm Bob! How are you?
-    Clip: {fileID: 0}
+    NextMessage: 3
+    MessageText: "Nous voici arriv\xE9 \xE0 la derni\xE8re \xE9tape de notre exp\xE9rience.
+      Voici Jos\xE9, il est en soin palliatif depuis longtemps...."
+    Clip: {fileID: 8300000, guid: b713eadb77ba54941a407b4af279e974, type: 3}
   - ID: 6
     Speaker: 0
-    SpeakerName: Bob
+    SpeakerName: Bambou
     PreviousMessage: -1
-    NextMessage: -1
-    MessageText: Good to hear.
-    Clip: {fileID: 0}
+    NextMessage: 10
+    MessageText: "Nous allons donc laisser Jos\xE9 partir sans souffrance. Ce choix
+      moral soul\xE8ve encore beaucoup de d\xE9bats aujourd'hui."
+    Clip: {fileID: 8300000, guid: 492f0a18b241c5e4bacd71783ae0f00f, type: 3}
   - ID: 7
     Speaker: 0
-    SpeakerName: Bob
+    SpeakerName: Bambou
     PreviousMessage: 4
-    NextMessage: 8
-    MessageText: I am sorry to hear that.
-    Clip: {fileID: 0}
+    NextMessage: 10
+    MessageText: "Rester dans le respect de la loi et de la vie est un choix moral
+      tout \xE0 fait l\xE9gitime."
+    Clip: {fileID: 8300000, guid: dabfd07eae5df13429bc69499c1b2b4e, type: 3}
   - ID: 8
     Speaker: 0
-    SpeakerName: Bob
-    PreviousMessage: 7
-    NextMessage: 9
-    MessageText: Cuicui
-    Clip: {fileID: 0}
-  - ID: 9
-    Speaker: 0
-    SpeakerName: Bob
+    SpeakerName: Bambou
     PreviousMessage: -1
     NextMessage: 4
-    MessageText: Coucou
-    Clip: {fileID: 0}
+    MessageText: "D'apr\xE8s toi, et sans jugement, quelle serait la d\xE9cision
+      \xE9thique dans cette situation ? "
+    Clip: {fileID: 8300000, guid: e042ed91ba96cdb42b7b5b7a8c06283a, type: 3}
+  - ID: 10
+    Speaker: 1
+    SpeakerName: Tonnerre
+    PreviousMessage: -1
+    NextMessage: 11
+    MessageText: "La moral de cette exp\xE9rience est que peut-importe le choix que
+      vous avez fait, vos actions auront des cons\xE9quences que vous auriez pr\xE9f\xE9r\xE9
+      \xE9viter.le mal. "
+    Clip: {fileID: 8300000, guid: fab4d6c1db2b1c8448a5546fb975b56e, type: 3}
+  - ID: 3
+    Speaker: 1
+    SpeakerName: Tonnerre
+    PreviousMessage: -1
+    NextMessage: 8
+    MessageText: "Notre pauvre Jos\xE9 n'en peut plus, il voudrait en finir mais
+      c'est interdit sur le plan l\xE9gal"
+    Clip: {fileID: 8300000, guid: dabfd07eae5df13429bc69499c1b2b4e, type: 3}
+  - ID: 11
+    Speaker: 0
+    SpeakerName: Bambou
+    PreviousMessage: -1
+    NextMessage: -1
+    MessageText: "Nos seules valeurs morales nous permettent de faire la diff\xE9rence
+      entre le bien et le mal. l'essence de notre Humanit\xE9 doit \xEAtre dict\xE9
+      par notre sens de l'\xE9thique. J'esp\xE8re que cette exp\xE9rience vous a
+      plu"
+    Clip: {fileID: 8300000, guid: 492f0a18b241c5e4bacd71783ae0f00f, type: 3}
   Choices:
   - ID: 4
     Choices:
-    - Pretty good, thanks.
-    - Not so good.
+    - "Laissons partir Jos\xE9"
+    - Non, ce serait hors la loi
     NextMessages: 0600000007000000
