@@ -24,7 +24,7 @@ public class PlayerControls : MonoBehaviour
         
         float mouseX = Input.GetAxis("Mouse X");
         float mouseY = Input.GetAxis("Mouse Y");
-        transform.Rotate(0, mouseX * mouseSensitivity, 0);
+        transform.Rotate(0f, mouseX * mouseSensitivity, 0f);
         
         float nextCamRotation = cam.transform.localRotation.eulerAngles.x + (-mouseY * Time.deltaTime * mouseSensitivity);
         if((nextCamRotation < 80 && nextCamRotation > 0) || (nextCamRotation > 280 && nextCamRotation < 360))

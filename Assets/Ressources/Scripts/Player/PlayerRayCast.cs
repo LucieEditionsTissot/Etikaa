@@ -18,9 +18,9 @@ public class PlayerRayCast : MonoBehaviour
         if (Physics.Raycast(Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0)), out hit, rayDistance))
         {
             Debug.DrawRay(Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0)).origin, Camera.main.ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0)).direction * rayDistance, Color.red);
-            Debug.Log(hit.collider.gameObject.name);
             if (Input.GetKeyDown(KeyCode.E))
             {
+                // Debug.Log(hit.collider.gameObject.name);
                 if(hit.collider.gameObject.tag == "Interactable")
                 {
                     hit.collider.gameObject.GetComponent<Interactable>()?.Interact();

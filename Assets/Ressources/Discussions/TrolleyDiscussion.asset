@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc788fe28a1947c5906bf24c0472406, type: 3}
+  m_Name: TrolleyDiscussion
+  m_EditorClassIdentifier: 
+  Conversations:
+  - ID: 10
+    Name: Trolley Dilemma
+    FirstMessage: 0
+  Speakers:
+  - ID: 11
+    Name: Bambou
+    Icon: {fileID: 0}
+  - ID: 12
+    Name: Tonnerre
+    Icon: {fileID: 0}
+  Messages:
+  - ID: 0
+    Speaker: 11
+    SpeakerName: Bambou
+    PreviousMessage: -1
+    NextMessage: 1
+    MessageText: "Bienvenue dans ce premier dilemme. C'est le c\xE9l\xE8bre dilemme
+      du tramway."
+    Clip: {fileID: 0}
+  - ID: 1
+    Speaker: 11
+    SpeakerName: Bambou
+    PreviousMessage: 0
+    NextMessage: 2
+    MessageText: Ces 5 personnes vont mourir si tu n'actives pas l'aiguillage devant
+      toi avec la touche E !
+    Clip: {fileID: 0}
+  - ID: 2
+    Speaker: 12
+    SpeakerName: Tonnerre
+    PreviousMessage: 1
+    NextMessage: 3
+    MessageText: "Mais si tu fais \xE7a, une personne innocente mourra !"
+    Clip: {fileID: 0}
+  - ID: 3
+    Speaker: 12
+    SpeakerName: Tonnerre
+    PreviousMessage: 2
+    NextMessage: -1
+    MessageText: Alors, que vas-tu faire ? Vite, le train arrive !
+    Clip: {fileID: 0}
+  Choices: []
