@@ -26,7 +26,6 @@ public class PlayerControls : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y");
         transform.Rotate(0, mouseX * mouseSensitivity, 0);
         
-        //80 0 360 280
         float nextCamRotation = cam.transform.localRotation.eulerAngles.x + (-mouseY * Time.deltaTime * mouseSensitivity);
         if((nextCamRotation < 80 && nextCamRotation > 0) || (nextCamRotation > 280 && nextCamRotation < 360))
             cam.transform.RotateAround(cam.transform.right, -mouseY * Time.deltaTime * mouseSensitivity);
