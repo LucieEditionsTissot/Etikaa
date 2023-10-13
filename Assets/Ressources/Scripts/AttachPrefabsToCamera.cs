@@ -2,17 +2,17 @@ using UnityEngine;
 
 public class AttachPrefabsToCamera : MonoBehaviour
 {
-    public GameObject prefab1;
-    public Vector3 positionOffset1 = new Vector3(0.52f, -1.43f, 2.01f);
-    public Quaternion rotationOffset1 = Quaternion.identity; 
+    public GameObject prefab1; // Alpagito 1
+    public Vector3 positionOffset1 = new Vector3(0.52f, -1.43f, 2.01f); // Position de l'offset Alpagito 1
+    public Quaternion rotationOffset1 = Quaternion.identity; // Rotation de l'offset Alpagito 1
 
-    public GameObject prefab2;
-    public Vector3 positionOffset2 = new Vector3(1.21f, -1.43f, 2.01f);
-    public Quaternion rotationOffset2 = Quaternion.identity;
+    public GameObject prefab2; // Alpagito 2
+    public Vector3 positionOffset2 = new Vector3(1.21f, -1.43f, 2.01f); // Position de l'offset Alpagito 2
+    public Quaternion rotationOffset2 = Quaternion.identity; // Rotation de l'offset Alpagito 1
 
     public Camera mainCamera;
-    private GameObject attachedPrefab1;
-    private GameObject attachedPrefab2;
+    private GameObject attachedPrefab1; // Point d'attache Alpagito 1
+    private GameObject attachedPrefab2; // Point d'attache Alpagito 2
 
     private void Awake()
     {

@@ -20,7 +20,8 @@ namespace QuantumTek.QuantumDialogue.Demo
 
         private void Awake()
         {
-            handler.SetConversation("Meeting with Bob");
+            // Attention : Tous les dialogues doivent s'appeler start
+            handler.SetConversation("Start");
             SetText();
         }
 
