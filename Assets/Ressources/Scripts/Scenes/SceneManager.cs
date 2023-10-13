@@ -38,7 +38,8 @@ public class SceneManager : MonoBehaviour
     }
 
     public void Start()
-    {
+    {   //HospitalScene
+        //TrolleyDilemma
         LoadScene("HospitalScene");
     }
 
