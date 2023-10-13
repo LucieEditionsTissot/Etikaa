@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class SceneManager : MonoBehaviour
 {
-    //singleton
-
     private static SceneManager _instance;
+    [SerializeField] private List<GameObject> scenePrefabs;
+    private GameObject currentScene;
+    [SerializeField] private GameObject player;
 
     public static SceneManager Instance()
     {
@@ -34,6 +35,20 @@ public class SceneManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void LoadScene(string sceneName)
+    {
+        foreach (GameObject scenePrefab in scenePrefabs)
+        {
+            if (scenePrefab.name == sceneName)
+            {
+                Destroy(currentScene);
+                currentScene = Instantiate(scenePrefab);
+            }
+        }
+
+        player.transform.position = GameObject.FindGameObjectWithTag("SpawnPoint").transform.position;
     }
 
 }
