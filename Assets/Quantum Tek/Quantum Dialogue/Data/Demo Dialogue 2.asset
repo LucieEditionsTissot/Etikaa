@@ -39,8 +39,22 @@ MonoBehaviour:
     Speaker: 0
     SpeakerName: Bob
     PreviousMessage: 4
-    NextMessage: -1
+    NextMessage: 8
     MessageText: I am sorry to hear that.
+    Clip: {fileID: 0}
+  - ID: 8
+    Speaker: 0
+    SpeakerName: Bob
+    PreviousMessage: 7
+    NextMessage: 9
+    MessageText: Cuicui
+    Clip: {fileID: 0}
+  - ID: 9
+    Speaker: 0
+    SpeakerName: Bob
+    PreviousMessage: -1
+    NextMessage: 4
+    MessageText: Coucou
     Clip: {fileID: 0}
   Choices:
   - ID: 4
