@@ -10,23 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fc788fe28a1947c5906bf24c0472406, type: 3}
-  m_Name: Demo Dialogue
+  m_Name: Hospital
   m_EditorClassIdentifier: 
   Conversations:
   - ID: 2
-    Name: Meeting with Bob
+    Name: "Ending with Jos\xE9"
     FirstMessage: 1
   Speakers:
   - ID: 0
-    Name: Bob
+    Name: Bambou
+    Icon: {fileID: 0}
+  - ID: 1
+    Name: Tonerre
     Icon: {fileID: 0}
   Messages:
   - ID: 1
     Speaker: 0
     SpeakerName: Bob
     PreviousMessage: -1
-    NextMessage: 4
-    MessageText: Hi, I'm Bob! How are you?
+    NextMessage: 2
+    MessageText: "Nous voici \xE0 la derni\xE8re \xE9tape"
     Clip: {fileID: 0}
   - ID: 6
     Speaker: 0
@@ -42,9 +45,30 @@ MonoBehaviour:
     NextMessage: -1
     MessageText: I am sorry to hear that.
     Clip: {fileID: 0}
+  - ID: 2
+    Speaker: 1
+    SpeakerName: Barb
+    PreviousMessage: 1
+    NextMessage: 3
+    MessageText: En effet, c'est le choix uttime, vois-tu ?
+    Clip: {fileID: 0}
+  - ID: 3
+    Speaker: 1
+    SpeakerName: Barb
+    PreviousMessage: 2
+    NextMessage: 5
+    MessageText: "Jos\xE9 est condamn\xE9 \xE0 une fin de vie plus ou moins proches"
+    Clip: {fileID: 0}
+  - ID: 5
+    Speaker: 1
+    SpeakerName: Barb
+    PreviousMessage: 3
+    NextMessage: 4
+    MessageText: 'Mais l''euthanasie est interdite, que fais tu ? '
+    Clip: {fileID: 0}
   Choices:
   - ID: 4
     Choices:
-    - Pretty good, thanks.
-    - Not so good.
+    - "Je bute Jos\xE9"
+    - "Je le laisse en soin palliatif m\xEAme si il veut en finir"
     NextMessages: 0600000007000000
